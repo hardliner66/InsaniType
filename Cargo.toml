@@ -1,0 +1,8 @@
+[package]
+name = "insanitype"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+notan = { version = "0.12.1", features = ["notan_audio", "notan_egui", "save_file", "text"] }
+rand = "0.8.5"
